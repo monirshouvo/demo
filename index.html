@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Facebook - log in or sign up</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+			<img src="images/facebook.png" class="logo-image" alt="fb logo" width="200px">
+		</div>
+		<div class="header-right">
+			<form action="#" method="post" enctype="form-data">
+
+				<section class="username-container">
+					<label for="username">Email or phone</label><br>
+					<input type="text" id="username" name="username" class="username">
+				</section>
+
+				<section class="password-container">
+					<label for="password">Password</label><br>
+					<input type="password" id="password" name="password" class="password"><br>
+					<a href="#" class="forgotten-account">Forgotten account?</a>
+				</section> 
+				<section class="login-container">
+					<br>
+					<button type="submit" value="Log In" class="log-in">Log In</button>
+				</section>
+			</form>
+		</div>
+		
+	</div>
+	<!--================================================Main================================================-->
+	<div class="main">
+		<!--%%%%%%%%%%%%%%%%%%%%%%---Main Left-----%%%%%%%%%%%%%%%%%%%%%-->
+		<div class="main-left">
+			<p class="main-left-text"><b>Facebook helps you connect and share with the <br> people in your life.</b></p>
+			<img src="images/pic.png" alt="pic" width="58%" >
+		</div>
+		<!--%%%%%%%%%%%%%%%%%%%%%%---Main-Right----%%%%%%%%%%%%%%%%%%%%%-->
+		<div class="main-right">
+			<h1 class="main-right-heading" style="color:#333333;">Create an account </h1>
+			<p class="main-right-text">It's quick and easy.</p>
+			<br><br>
+			<form action="#" method="get" enctype="multipart/form-data">
+
+				<input type="text" class="first-name" placeholder="First name" name="first-name">
+				<input type="text" class="surname" placeholder="Surname" name="surname"> <br>
+				<input type="text" class="mobile-email" placeholder="Mobile number or email address" name="mobile-email">
+				<br>
+				<input type="password" class="new-password" placeholder="New password" name="new-password"><br><br>
+				<label for="birthday">Birthday</label> 
+				<br>
+				<select id="birthday" name="day" form="" class="birthday">
+  					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+				</select>
+				<select id="birthday" name="month" form="" class="birthday">
+  					<option value="1">January</option>
+  					<option value="2">February</option>
+  					<option value="3">March</option>
+  					<option value="4">April</option>
+				</select>
+				<select id="birthday" name="year" form="" class="birthday">
+  					<option value="2004">2004</option>
+  					<option value="2003">2003</option>
+  					<option value="2002">2002</option>
+  					<option value="2001">2001</option>
+				</select>
+				<a href="#" title="Click for more information" class="question-mark" >?</a><br><br>
+				<label for="gender">Gender</label> <br>
+				<input type="radio" class="gender" name="gender"><span class="gender">Male</span>
+				<input type="radio" class="gender" name="gender"><span class="gender">Female</span>
+				<input type="radio" class="gender" name="gender"><span class="gender">Custom</span><a href="#" title="Click for more information" class="question-mark" >?</a> <br><br>
+				<p class="main-right-bottom-text">
+					By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <br> <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and <br> can opt out at any time.
+				</p>
+				<br>
+				<input type="button" value="Sign Up" class="sign-up" name="sign-up">
+			</form>
+			<p class="right-bottom-text"><a href="#">Create a Page </a>for a celebrity, band or business.</p>
+		</div>
+	</div>
+	<!--=================================================Footer===============================================-->
+	<div class="footer">
+		
+	</div>
+	
+</body>
+</html>

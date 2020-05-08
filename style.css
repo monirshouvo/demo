@@ -1,0 +1,75 @@
+body{
+	margin:0;
+}
+/*==================================================Header==============================================*/
+.header{
+	background-color: #3B5998;
+	overflow: hidden;
+}
+
+.header-left, .header-right{
+	width:50% ;
+	float: left;
+	min-height: 82px;
+}
+.header-left{
+	text-align: center;
+}
+
+.username-container, .password-container, .login-container{
+	float: left;
+	margin-left:20px;
+	margin-top:15px;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	
+
+}
+.log-in{
+	background-color: #27496d;
+	border: 1px solid black;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	opacity: .6;
+}
+a:hover{
+	text-decoration: underline;
+}
+.username, .password, .forgotten-account, .log-in{
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+/*====================================================Main===============================================*/
+.main{
+	overflow: hidden;
+	background-color: #F2F4F8;
+}
+				/*=======main-left===============*/
+.main-left, .main-right{
+	min-height:400px;
+	width: 50%;
+	float: left;
+}
+.main-left{
+	text-align: right;
+}
+.main-left-text{
+	margin-top: 35px;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 42%;
+	color: #0E385F;
+	text-align: left;
+}
+/*==========================main-right========================*/
+
+
+/*===================================================Footer===============================================*/
+.footer{
+	min-height:100px;
+	background-color: yellow; 
+}
